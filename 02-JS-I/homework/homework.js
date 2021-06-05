@@ -107,12 +107,16 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
+  if (num % 2 === 0) return true
+  else return false;
 }
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
+  if (num % 2 === 0) return false
+  else return true
 }
 
 function elevarAlCuadrado(num) {
@@ -137,12 +141,13 @@ function elevar(num, exponent) {
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
+  return Math.random(num);
 }
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  return Math.ceil (num);
+  return Math.ceil(num);
 }
 
 function numeroRandom() {
